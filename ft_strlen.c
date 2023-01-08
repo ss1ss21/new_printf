@@ -6,11 +6,11 @@
 /*   By: ssonmez <ssonmez@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/05 13:30:14 by ssonmez           #+#    #+#             */
-/*   Updated: 2022/12/24 18:43:51 by ssonmez          ###   ########.fr       */
+/*   Updated: 2023/01/08 17:11:36 by ssonmez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 size_t	ft_strlen(const char *s)
 {

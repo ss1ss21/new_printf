@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printputchar.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dontgu <dontgu@student.42.fr>              +#+  +:+       +#+        */
+/*   By: ssonmez <ssonmez@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/10 20:23:23 by ssonmez           #+#    #+#             */
-/*   Updated: 2022/12/29 15:15:54 by dontgu           ###   ########.fr       */
+/*   Updated: 2023/01/08 14:18:14 by ssonmez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 int	ft_printputchar(char c)
 {
 	write(1, &c, 1);
-	return(1);
+	return (1);
 }
